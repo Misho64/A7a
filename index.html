@@ -1,0 +1,425 @@
+<html lang="en">
+<head>
+    <title>𝑀ish𝛩 ⫹⫺ 64</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="./Hjwh.jpg" type="image/jpg">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Changa:wght@200&display=swap');
+        .clickable {
+            cursor: pointer;
+          
+        }
+@media screen and (max-width: 600px) {
+  body > div > h1 {
+    font-size: 15px;
+  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh
+  margin: 0;
+  padding: 0;
+  background-image: url(./qq1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Changa', sans-serif;
+}
+
+
+body > div > p {
+  color: white
+}
+
+
+#wet, #ins, #dsk ,#tly{
+  position: relative;
+  background: #444;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  transition: 0.2s;
+}
+
+#viin {
+  color: white;
+  position: relative;
+  background: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  transition: 0.2s;
+}
+#wet:hover, #ins:hover, #viin:hover, #dsk:hover ,#tly:hover{
+  letter-spacing: 0.2rem;
+  padding: 1.1rem 3.1rem;
+  background: var(--clr);
+  color: var(--clr);
+  animation: box 3s infinite;
+}
+
+#wet::before, #ins::before, #viin::before, #dsk::before ,#tly::before{
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background: #272822;
+}
+
+#wet span, #ins span, #viin spam, #dsk  span , #tly span{
+  position: relative;
+  z-index: 1;
+}
+#wet i, #ins i, #viin i, #dsk i, #tly i{
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+#wet i::before, #ins i::before, #viin i::before, #dsk i::before, #tly i::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 80%;
+  top: -2px;
+  border: 2px solid var(--clr);
+  background: #272822;
+  transition: 0.2s;
+}
+
+#wet:hover i::before, #ins:hover i::before, #tlg:hover i::before, #dsk:hover i::before, #tly:hover i::before {
+  
+  animation: move 3s infinite;
+}
+
+ #wet i::after, #ins i::after, #tlg i::after, #dsk i::after ,#tly i::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  left: 20%;
+  bottom: -2px;
+  border: 2px solid var(--clr);
+  background: #272822;
+  transition: 0.2s;
+}
+
+#tlg :hover i::after, #wet :hover i::after, #ins :hover i::after, #dsk:hover i::after,#tly :hover i::after {
+  width: 15px;
+  left: 80%;
+  animation: move 3s infinite;
+}
+#container {
+  position: relative; 
+}
+
+#img1 {
+  position: relative; 
+  z-index: 2; 
+  height: 177px;
+  border-radius: 50%;
+  border: 4px solid firebrick;
+  top: 16px;
+}
+
+#img1:hover {
+  border-radius: 20px;
+}
+
+#bakk {
+  margin-top: -45px;
+  position: absolute; 
+  padding: -900000px;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 430px; 
+  height: 200px; 
+  background-size: contain; 
+  background-position: center; 
+  border: 1px solid black;
+}
+
+
+#klop{
+  font-size: 19px;
+  text-align: center;
+  color: white;
+  background: #0008;
+  width: 320px;
+  padding: 14px 10px;
+  border-radius: 20px;
+  font-family: 'Changa', sans-serif;
+}
+#venoom {
+  background: black;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.venoom2 {
+    background: black;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  padding-top: none;
+  font-size: 10px;
+  padding-right: 10px;
+}
+
+#wet2, #ins2, #tlg2, #dsk2, #gim2 {
+  font-size: 19px;
+  text-align: center;
+  color: white;
+  background: #0008;
+  width: 320px;
+  padding: 14px 10px;
+  border-radius: 20px;
+  font-family: 'Changa', sans-serif;
+}
+
+ #wet, #ins, #dsk, #tlg , #tly{
+  text-align: center;
+  color: white;
+  width: 300px;
+  padding: 14px 10px;
+  height: 70px;
+  font-size: 17px;
+}
+#button-a {
+  font-size: 19px;
+  text-align: center;
+  color: white;
+  background: black;
+  width: 200px;
+  padding: 14px 10px;
+  border-radius: 20px;
+  font-family: 'Changa', sans-serif;
+}
+#button-a:hover { 
+  color: black;
+  background: firebrick;
+}
+ .topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%; /* تمتد على عرض الصفحة بالكامل */
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px; /* تعديل التباعد ليكون مناسبًا */
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+ .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .button-list li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+.sidemenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    
+    
+}
+
+.sidemenu a {
+    padding: 9px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.sidemenu a:hover {
+    color: #f1f1f1;
+}
+
+.sidemenu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+ .vooo {
+   color: white
+ }
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes box {
+  0% {
+    box-shadow: #27272c;
+  }
+  50% {
+    box-shadow: 0 0 25px var(--clr);
+  }
+  100% {
+    box-shadow: #27272c;
+  }
+    </style>
+</head>
+</div>
+
+<div id="container">
+  <img id="img1" class="clickable" src="./Hjwh.jpg" alt="مفيش صوره">
+  <img id="bakk" src="" alt="noo">
+</div>
+
+    <h1 style="color: white"><span style="color: firebrick">M</span>isho <span style="color: firebrick">64</span></h1>
+    <div id="klop">
+        <p>منورين موقعي</p>
+         <p>اللي عاملو الساعة 2:AM</p>
+         <p>انزل بالشاشة و افتح القائمة بس الازرار لسه مش شغاله</p>
+</div>
+    <div id="wet2">
+        <h1>واتساب</h1>
+        <p>━━━━━━━━━━</p>
+    </div>
+    <div>
+    <button id="wet" style="--clr:#39FF14"><span>WhatsApp</span><i></i></button>
+</div>
+    <div id="ins2">
+        <h1>انستجرام</h1>
+        <p>━━━━━━━━━━</p>
+    </div>
+    <button id="ins" style="--clr:#FF0000"><span>Instagram</span><i></i></button>
+
+    </i>
+   <div id="dsk2">
+        <h1>ديسكورد</h1>
+        <p>━━━━━━━━━━</p>
+    </div>
+    <button id="dsk" style="--clr:#7289da"><span>Discord</span><i></i></button>
+ </div>
+ </i>
+ <div id="dsk2">
+        <h1>تليجرام</h1>
+        <p>━━━━━━━━━━</p>
+    </div>
+    <button id="tly" style="--clr:#0FF0FC"><span>Telegram</span><i></i></button>
+ </div>
+    <div id="tlg2">
+        <h1>في ايام الصغر قالوا خلي اخلاقك حميده</h1>
+        <h1>...</h1>
+        <h1>حميده طلعت رقاصة ، وانا احسبها شريفة</h1>
+        
+        <p>▾ ━━━━━━━━━━ ▾</p>
+    </div>
+    <button class="vooo" id="button-a" onclick="toggleMenu()">☰ القائمة</button>
+<div id="sideMenu" class="sidemenu">
+    <a href="#" onclick="toggleMenu()">✖ إغلاق</a>
+    <a href='/'>الصفحة الرئيسية</a>
+    <a href='/venomp'>الدعم</a>
+    <a href='/venomb'>البوتات</a>
+    <a href='/venomp'>الالعاب</a>
+    <a href='/venomp'>البرمجه</a>
+    <a href='/venomsc'>قول آه</a>
+    <a href='/venomsc'>الشارع اللي ورا</a>
+</div>
+    <div id="venoom">
+    <p>بـيـو</p>
+    <p>بـيـو</p>
+    <p><span style="color: firebrick">أحـمـد مـحـسـن</span></p>
+     <p>بـيـو</p>
+     <p>بـيـو</p>
+    </div>
+    <div class="venoom2">
+      <p >© 2025</p>
+      <p>تم تصميم الموقع بواسطه</p>
+      <p>64 Group</p>
+    </div>
+    <script>
+    function toggleMenu() {
+    var menu = document.getElementById("sideMenu");
+    menu.style.width = menu.style.width === "250px" ? "0" : "250px";
+}
+function venomMenu() {
+    var menu = document.getElementById("sideMenu");
+    menu.style.width = menu.style.width === "250px" ? "0" : "250px";
+}
+        var wet = document.getElementById("wet");
+ 
+wet.addEventListener("click", function() {
+
+  window.location.href = "https://wa.me/+972569378785";
+});
+var ins = document.getElementById("ins");
+ 
+ins.addEventListener("click", function() {
+
+  window.location.href = "https://www.instagram.com/venom_y_11";
+});
+var tlg = document.getElementById("viin");
+ 
+viin.addEventListener("click", function() {
+
+  window.location.href = "https://t.me/venom_xov";
+});
+var dsk = document.getElementById("dsk");
+ 
+dsk.addEventListener("click", function() {
+
+  window.location.href = "https://discord.com/invite/2wKbDJNd";
+});
+
+
+    </script>
+</body>
+</html>
